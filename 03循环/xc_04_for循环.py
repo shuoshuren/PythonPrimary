@@ -1,0 +1,8 @@
+for num in [1,2,3,4]:
+    print(num)
+    if num == 2:
+        break
+else:
+    # 如果循环体内部使用break退出循环，else下方的代码就不会执行
+    print("会执行吗？")
+print("循环结束")
